@@ -18,7 +18,13 @@ Do the following:
    HINT: no function required
 */
 
+var votingAge = 12;
 
+if (votingAge >= 18) {
+	console.log(true);
+} else {
+	console.log(false);
+}
 
 /*
 Task 1b - Values
@@ -31,8 +37,13 @@ Do the following:
    HINT: no function required
 */
 
+var a = 3;
+var b = 9;
 
-
+if (b >= 6) {
+	var a = 4;
+	console.log(a);
+}
 
 
 /*
@@ -46,8 +57,10 @@ Do the following:
    HINT: look up the Number method
 */
 
+var amount = "1999";
 
-
+Number(amount);
+console.log(amount);
 
 /*
 Task 1d - Multiply
@@ -58,11 +71,11 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-    /*add your code here*/
+function multiply(a,b){
+    return a * b;
   }
 
-
+console.log(multiply(2,4));
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
