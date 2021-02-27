@@ -171,10 +171,27 @@ Use the game function below to do the following:
   HINT: Remember that the order in which we pass in our arguments matters when it comes to parameters
 */
 
+var computer = Math.random();
+ // rock = 0;
+ // paper < 1;
+ // scissors = 1;
+
 function game(user, computer){
-    /*add your code here*/
+    if (user = 1, computer < 1) {
+    	console.log("you win!");
+    };
+    if (user < 1, computer = 0) {
+    	console.log("you win!");
+    };
+    if (user = 1, computer = 0) {
+    	console.log("you lose!");
+    };
+    if (user = computer) {
+    	console.log("it's a tie!");
+    }
 }
-  
+
+game(0,computer);
   
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
